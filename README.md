@@ -22,3 +22,20 @@
 ```ctx.strokeStyle = "#2c2c2c"; ctx.lineWidth = 2.5;```
 
 - [x] 선을 만드는 과정은 2.2 Recap을 참조하도록 하자.
+
+### Change Color
+- Array.from 메소드는 object로 부터 array를 만든다.
+```
+Array.from(colors).forEach(color =>
+  color.addEventListener("click", handleColorClick)
+);
+```
+로 colors라는 elementsByClassName 으로 받아온 array를 각각 eventListen시켜주고
+
+```
+function handleColorClick(event) {
+  const color = event.target.style.backgroundColor;
+  ctx.strokeStyle = color;
+}
+```
+클릭하면 타겟 스타일의 배경색으로 스트로크스타일을 바꾸어 준다.
