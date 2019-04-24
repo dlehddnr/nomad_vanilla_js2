@@ -45,3 +45,8 @@ range 이벤트는 input에 반응한다.
 
 ### Fill
 Fill 클릭 -> 색 클릭 -> 캔버스 클릭 -> 색으로 가득 채우기.
+
+### fillRect
+ctx.fillRect(x좌표, y좌표, 가로, 세로)
+fillStyle로 색 지정 가능하다.
+fillStyle을 바꿔도 그 앞에 미리 그린 사각형에는 영향이 가지 않는다.
