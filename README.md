@@ -13,3 +13,12 @@
 - path 를 만드는 건 기본적으로 선, 선의 시작점을 만드는 것!
 - 시작점은 마우스가 움직이는 곳이라면 어디든 OK!
 - 하지만 클릭하고 나면 시작점부터 클릭한 곳 까지 라인을 만든다.
+  
+- Canvas 는 사이즈를 가져야한다. canvas 는 두개의 사이즈를 가지는데 css size, pixel manipulating size
+
+```canvas.width = 700; canvas.height = 700;```
+- 선 설정
+
+```ctx.strokeStyle = "#2c2c2c"; ctx.lineWidth = 2.5;```
+
+- [x] 선을 만드는 과정은 2.2 Recap을 참조하도록 하자.
