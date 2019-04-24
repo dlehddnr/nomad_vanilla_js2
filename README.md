@@ -50,3 +50,15 @@ Fill 클릭 -> 색 클릭 -> 캔버스 클릭 -> 색으로 가득 채우기.
 ctx.fillRect(x좌표, y좌표, 가로, 세로)
 fillStyle로 색 지정 가능하다.
 fillStyle을 바꿔도 그 앞에 미리 그린 사각형에는 영향이 가지 않는다.
+
+### Small Bug
+그리고 이미지를 저장하면 배경이 tansparent(투명하다), 실제 canvas의 배경색을 설정하지 않았기때문.
+HTML 엘리먼트의 배경색만 지정해줌.
+
+### download
+```
+<a href="#">
+```
+대신에 <a download="#">이런식으로 써줄 수 있다.
+다운로드 받을때 href = 이미지 여야 하고
+            download = 이름 을 가져와야 한다.
