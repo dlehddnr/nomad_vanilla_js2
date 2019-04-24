@@ -39,3 +39,9 @@ function handleColorClick(event) {
 }
 ```
 클릭하면 타겟 스타일의 배경색으로 스트로크스타일을 바꾸어 준다.
+
+### Brush Size
+range 이벤트는 input에 반응한다.
+
+### Fill
+Fill 클릭 -> 색 클릭 -> 캔버스 클릭 -> 색으로 가득 채우기.
